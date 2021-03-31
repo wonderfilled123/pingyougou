@@ -1,0 +1,281 @@
+ /* 详情页 */
+.de_containter
+{
+    margin-top: 20px;
+}
+.crumb_warp a
+{
+    margin-right: 10px;
+}
+.preview_warp
+{
+    width: 400px;
+    height: 590px;
+    /* background-color: pink; */
+}
+.preview_img
+{
+    position: relative;
+    height: 398px;
+    border: 1px solid #ccc;
+}
+.mask
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background-color: #FEDE4F;
+    opacity: .3;
+    cursor: move;
+    display: none;
+}
+.big
+{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    left:410px;
+    z-index: 999;
+    display: none;
+    overflow: hidden;
+}
+.bigimg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: 0.3; */
+}
+.preview_list
+{
+    position: relative;
+    height: 60px;
+    /* background-color: pink; */
+    margin-top: 60px;
+}
+.list_item
+{
+    width: 320px;
+    height: 60px;
+    /* background-color: purple; */
+    margin: 0 auto;
+}
+.list_item li 
+{
+    float: left;
+    width: 56px;
+    height: 56px;
+    /* background-color: rgb(9, 24, 70); */
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+.list_item li.current
+{
+    border-color: #c81623;
+}
+
+.itemInfo_wrap
+{
+     width: 718px;
+    /* background-color: purple; */
+}
+.arrow_next,.arrow_prev
+{
+    position: absolute;
+    top:15px;
+    width: 22px;
+    height: 32px;
+    background-color: purple;
+}
+.arrow_next
+{
+    right: 0;
+    
+}
+.arrow_prev
+{
+    left: 0;
+}
+.itemInfo_wrap
+{
+     width: 718px;
+    /* background-color: purple; */
+}
+.sku_name
+{
+    font-size: 16px;
+    color: #333333;
+}
+.news
+{
+    color:#e12228 ;
+    height: 32px;
+}
+.summary dt,dd
+{
+    float: left;
+}
+.summary dt
+{
+    width: 60px;
+    padding-left: 10px;
+}
+.summary dl 
+{
+    overflow: hidden;
+}
+.summary_price,.summary_promotion
+{
+    position: relative;
+    padding: 10px 0;
+    background-color: #ffeeee;
+}
+.summary_promotion em
+{
+    width: 450px;
+    height: 22px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 22px;
+    color: #ffffff;
+}
+.summary_promotion dd 
+{
+    width: 450px;
+    line-height: 36px;
+}
+.summary .price
+{
+    font-size: 24px;
+    color:#e12228;
+}
+.remark
+{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.summary_promotion dd 
+{
+    line-height: 36px;
+}
+.summary_support
+{
+    width: 450px;
+   line-height: 36px;
+}
+.choose_color a
+{
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    line-height: 41px;
+}
+
+.choose_version a, .choose_type a
+{
+    display: inline-block;
+    height: 32px;
+    padding: 0 12px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    line-height: 32px;
+    text-align: center;
+}
+/* .choose_color  .current
+{
+    border: 1px solid red;
+}
+.choose_version  .current
+{
+    border: 1px solid red;
+}
+.choose_type  .current
+{
+    border: 1px solid red;
+} */
+.summary a.current
+{
+    border: 1px solid red;
+}
+.choose_btns
+{
+    margin-top: 20px;
+}
+.choose_amount
+{
+    float: left;
+    width: 50px;
+    height: 46px;
+    position: relative;
+    /* background-color: royalblue; */
+}
+.choose_amount input
+{
+    width: 33px;
+    height: 44px;
+    border:  1px solid #ccc;
+    text-align: center;
+    background-color: rosybrown;
+
+}
+.addcar
+{
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color:red;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    line-height: 46px;
+}
+.add,.reduce
+{
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    line-height: 22px;
+    text-align: center;
+}
+.add
+{
+    top: 0;
+    right: 0;
+}
+.reduce
+{
+    bottom: 0;
+    right: 0;
+    cursor: not-allowed;
+}
+
+.aside
+{
+    width: 208px;
+    height: 1000px;
+    border: 1px solid #ccc;
+}
+.detail
+{
+    width: 978px;
+    height: 1000px;
+    border: 1px solid #ccc;
+}
+.tab_list
+{
+    height: 34px;
+    background-color: salmon;
+}
+
+
+

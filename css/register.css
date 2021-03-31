@@ -1,0 +1,161 @@
+.w
+{
+    width: 1200px;
+    margin: auto;
+}
+.header
+{
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo
+{
+    padding-top :15px; 
+}
+.registerarea
+{
+    height: 520px;
+    border:1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 
+{
+    /* h3也是块级元素 */
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 40px;
+     padding:0 10px;
+     font-weight: 400;
+     font-size: 18px;
+}
+ .registerarea  h3 em
+{
+     float: right;
+     font-size: 14px;
+}
+.registerarea a
+{
+    color: #c81623;
+}
+.reg-form
+{
+
+    width: 600px;
+    height: 420px;
+    /* background-color: pink; */
+    margin:40px auto 0; 
+    
+}
+.reg-form li 
+{
+    margin-bottom: 10px;
+}
+/* label 是行内元素 */
+
+/* span a label 是行内元素 i 也是行内元素 */
+.reg-form label
+{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+    /* 对齐方式 */
+}
+.inp
+{
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+
+
+.error
+{
+    color: #df3033;
+}
+.error-icon 
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    vertical-align: middle;
+}
+ .success
+ {
+     color: #40883f;
+     margin-left: 10px;
+ }
+ .success-icon 
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    vertical-align: middle;
+} 
+
+
+
+.safe
+{
+    padding-left: 200px;
+    color:#b2b2b2;
+}
+.safe em 
+{
+    padding: 0 10px;
+}
+.safe em:nth-child(1)
+{
+    background-color: red;
+}
+.safe em:nth-child(2)
+{
+    background-color: green;
+
+}
+.safe em:nth-child(3)
+{
+    background-color: yellow;
+
+}
+/* 行内元素可以直接给padding值 */
+.agree {
+    padding-left: 100px;
+}
+.agree
+{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.agree a 
+{
+    color: tomato;
+    padding-left: 20px;
+}
+.over
+{
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    margin: 30px 0 0  130px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* 1. 表单总结：
+让一个大盒子居中对齐
+表单用 form ul li  布局 
+提示信息用label 标签 包含 
+表单的div 类名叫  registerarea reg-form 
+给相同的一个表单指定相同的类名有便于css的操作
+margin:auto  可以使元素水平居中对齐
+span a label 是行内元素 i 也是行内元素
+见到行内块元素 需要记得加 vertical middle
+行内元素可以直接给padding值
+
+ */
